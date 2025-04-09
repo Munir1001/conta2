@@ -1,0 +1,8 @@
+{
+    "require": {
+        "bramus/router": "~1.6",
+        "luecano/numero-a-letras": "^3.0",
+        "sendgrid/sendgrid": "^8.1",
+        "elasticemail/elasticemail-php": "^4.0"
+    }
+}

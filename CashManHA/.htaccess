@@ -1,0 +1,6 @@
+# NO PERMITIR LA VISTA DE LOS DIRECTORIOS DEL SITIO
+Options +FollowSymLinks
+Options All -Indexes
+RewriteEngine on
+ErrorDocument 403 <?php echo $UrlGlobal; ?>controlador/cGestionesCashman.php?cashmanhagestion=error-403
+
